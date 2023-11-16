@@ -1,0 +1,70 @@
+.page {
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid;
+  background-color: #790d0d;
+}
+
+
+.content h1 {
+ font-size: 3.5rem;
+ font-weight: 700;
+ margin: 54px 0 0 30px;
+
+}
+
+.content h1 span{
+ color: #38bdf8;
+
+}
+
+.content h4 {
+  margin: 0 0 0 30px;
+  font-weight: 400;
+  letter-spacing: .10em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .17em solid pink;
+  animation: typing 3.5s steps(30, end) , blinking-cursor .5s step-end infinite;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0 0 30px;
+}
+.icons .fa-discord,
+.fa-instagram
+{
+@keyframes blink-caret {
+  from {
+   opacity: 1;
+  }
+  to { 
+    border-color: transparent;
+    opacity: 0;
+  }
+
+}
+
+@media (min-width: 767px) {
+ .page {
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid;
+  background-color: #fff;
+ }
+
+} margin: 0 10px
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

@@ -1,0 +1,1 @@
+alert("Ghost now connected in your PC/PHONE!");
