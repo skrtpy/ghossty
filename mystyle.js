@@ -1,1 +1,1 @@
-alert("Ghost now connected in your PC/PHONE!");
+alert("Rashyyx now connected in your PC/PHONE!");
